@@ -1,0 +1,42 @@
+Again, this isn't the direct output. 
+
+Nonetheless, here are the threshold values:
+
+gamma = 0
+
+^>+10
+^^^
+^^^
+
+gamma = 0.73308
+
+^<*+10
+^^^
+^^^
+
+
+gamma = 0.859776
+
+^<+10
+^^<*
+^^^
+
+gamma = 0.859854
+
+^<+10
+^<*<
+^^<*
+
+gamma = 0.877065
+
+^<+10
+^<<
+^<*<
+
+gamma = 0.971024
+
+^<+10
+^<v*
+^<<
+
+1

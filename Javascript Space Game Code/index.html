@@ -1,0 +1,86 @@
+<html>
+
+<title>Div Blaster</title>
+
+<!-- JS -->
+<script src='scripts/jquery.min.js'></script>
+<script src='scripts/page.js'></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<!-- HTML -->
+<body>
+  
+  <div class='outer-container'>
+    
+    <div class='game-window'>
+      <div id='enterprise' class='ship'>
+        <img class='ship-avatar' src='img/fighter.png' height='50px'/> <!--ship img: src='http://i.stack.imgur.com/rsH6n.png'-->
+      </div>
+      <div class = 'splash'>
+      <h3 class='title' id='name' >Asteroid Blaster 2.0</h3>
+      <br>
+      <br>
+      <h3 class='title'>Controls:</h3>
+      <br>
+      <br>
+      <h3>[Arrow keys] Move</h3>
+      <h3>[Space bar] Fire Rocket</h3>
+      <hr>
+      <button class='but' onclick='start_game()'>
+          Start the Asteroid Challenge!
+      </button> 
+    </div>
+      <div class='lifebox' id='lifebox'>
+
+
+        <div class= 'lifebox-end'>
+        </div>
+      </div>
+    </div>
+
+    <div class='game-over' style="display: none;">
+      <h1>GAME OVER!</h1>
+      <p id='fintext'>score:</p>
+      <h1 id='final-score'></h1>
+      <button id='go back' onclick='new_game()'> 
+        Go Back
+      </button>
+    </div>
+
+    <div class='status-window' style='text-align: center'>
+
+      <p>score:</p>
+      <h1 id='score-box'>0</h1>
+      <hr>
+      <br>
+      <p>accuracy:</p>
+      <h1 id='accuracy-box'>0</h1>
+      <hr>
+      <br>
+      <div class='settings' value = '1' onclick="settingClick()">
+        <h1 id='setting-button-text'> Open Setting Panel </h1>
+        
+      </div>
+      <div id = 'setting-panel' class = 'panel'>
+        <div id = 'setting-form' class = 'panel'>
+          <div id = 'input-lives'>
+            <p> Start Lives: <input type= "text" id = "input-lives-box" value = "3"></p>
+          </div>
+          <div id = 'input-asteroids'>
+            <p> Asteroids per Second: <input type= "text" id = "input-asteroids-box" value = "1"></p>
+          </div>
+          <div id = 'input-shields'>
+            <p> Asteroids per Shield: <input type= "text" id = "input-shields-box" value = "10"></p>
+          </div>
+        </div>      
+        <button class ='but' id='update' onclick="update()">
+          update
+        </button> 
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

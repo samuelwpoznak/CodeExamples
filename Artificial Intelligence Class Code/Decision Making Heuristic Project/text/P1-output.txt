@@ -1,0 +1,58 @@
+This is not the direct output from my project.
+To make this more readable, I have parsed through the output 
+in order to give you the most clear answers.
+Run the output an parse through yourself to prove that my program gave the answers I have listed.
+
+Thresholds:
+
+R(s) val = 0:
+
+>>>+1
+^X<-1
+^<<v
+
+R(s) val = -0.0272608:
+
+>>>+1
+^X<-1
+^<<<*
+
+R(s) val = -0.0448205:
+
+>>>+1
+^X^*-1
+^<<<
+
+R(s) val = -0.0849079:
+
+>>>+1
+^X^-1
+^<^*<
+
+R(s) val = -0.45257:
+
+>>>+1
+^X^-1
+^>*^<
+
+R(s) val = -0.731087:
+
+>>>+1
+^X^-1
+^>^^*
+
+R(s) val = -1.56423:
+
+>>>+1
+^X^-1
+>*>^^
+
+R(s) val = -1.64966:
+
+>>>+1
+^X^-1
+>>>*^
+
+
+The policy says to move left from (3,1) because it risks no encounter with the -1 terminal value. In this scenario, it is useful to play it safe.
+

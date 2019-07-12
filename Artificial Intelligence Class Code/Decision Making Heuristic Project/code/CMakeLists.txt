@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_CXX_FLAGS "-std=gnu++11 ${CMAKE_CXX_FLAGS}")
+project( Project4 )
+add_executable( Project4 assign4.cpp assign4.h)
+target_link_libraries( Project4 )

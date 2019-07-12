@@ -1,0 +1,9 @@
+Answer: K2
+
+T_AB
+[(d1,0),(t1,t2)]
+action('keep',t1)
+
+T_CK2
+[(c1,c3),(d2,0)]
+action('keep',c1)

@@ -1,0 +1,11 @@
+My rewards from the first runthrough were incredibly paltry because my agent fell into the [-1] square within a few moves.
+Therefore, I got a -1.04 in my first run. 
+
+The means and standard deviations are:
+
+0.41024+/-0.571847
+0.4128+/-0.555205
+0.256+/-0.687069
+
+listed from most runs to lowest runs. The higher runs come incredibly close to the .388 expected utility of the square.
+Certainly within the std. dev.

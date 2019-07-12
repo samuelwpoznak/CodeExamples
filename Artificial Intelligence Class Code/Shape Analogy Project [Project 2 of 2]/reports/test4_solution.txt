@@ -1,0 +1,13 @@
+Answer: K2
+
+T_AB
+[(scc1,scc4),(t2,t3)]
+action('keep',scc1)
+action('keep',t2)
+action('moveLeft',t2,-2)
+
+T_CK2
+[(scc5,scc8),(s5,s6)]
+action('keep',scc5)
+action('keep',s5)
+action('moveLeft',s5,-2)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Project1 )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Project1 main.cpp diagram_shape.cpp diagram_processing.cpp io.cpp diagram_shape.h diagram_processing.h io.h)
+target_link_libraries( Project1 ${OpenCV_LIBS} )

@@ -1,0 +1,13 @@
+Answer: K1
+
+T_AB
+[(r1,r2),(t1,t3)]
+action('keep',r1)
+action('keep',t1)
+action('moveLeft',t1,-20)
+
+T_CK1
+[(r3,r6),(r4,r7)]
+action('keep',r3)
+action('keep',r4)
+action('moveLeft',r4,-18)

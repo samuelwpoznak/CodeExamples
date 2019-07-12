@@ -1,0 +1,15 @@
+Answer: K1
+
+T_AB
+[(c4,c1),(s1,s2)]
+action('keep',c4)
+action('shrink',c4)
+action('keep',s1)
+action('enlarge',s1)
+
+T_CK1
+[(t1,t2),(s4,s3)]
+action('keep',t1)
+action('enlarge',t1)
+action('keep',s4)
+action('shrink',s4)

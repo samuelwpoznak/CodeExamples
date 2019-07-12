@@ -1,0 +1,21 @@
+Answer: K1
+
+T_AB
+[(c1,0),(d1,d2),(t1,t2)]
+action('keep',d1)
+action('moveRight',d1,65)
+action('moveDown',d1,55)
+action('keep',t1)
+action('shrink',t1)
+action('moveLeft',t1,-20)
+action('moveUp',t1,-55)
+
+T_CK1
+[(c2,c3),(s1,s2),(scc1,0)]
+action('keep',c2)
+action('moveRight',c2,60)
+action('moveDown',c2,70)
+action('keep',s1)
+action('shrink',s1)
+action('moveLeft',s1,-25)
+action('moveUp',s1,-40)
